@@ -1,5 +1,5 @@
 module.exports = {
-  plugins: ['react', 'react-hooks', 'jsx-a11y'],
+  plugins: ['react', 'jsx-a11y'],
   extends: [
     'plugin:react/recommended',
     'plugin:react-hooks/recommended',
@@ -21,10 +21,6 @@ module.exports = {
     'jsx-a11y/media-has-caption': 'warn',
     'jsx-a11y/no-autofocus': 'warn',
     'jsx-quotes': 'error',
-
-    /** react-hooks */
-    'react-hooks/exhaustive-deps': 'warn',
-    'react-hooks/rules-of-hooks': 'error',
 
     /** react */
     'react/no-typos': 'error',
